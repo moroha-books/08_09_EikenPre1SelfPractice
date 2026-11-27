@@ -1,0 +1,43 @@
+{
+  "category": "paraphrase",
+  "category_title": "言い換え・誤読トラップ",
+  "description": "1週目：言い換え24文。",
+  "tracks": [
+    {
+      "id": "w1_paraphrase_03",
+      "title": "W1 言い換え 25〜36",
+      "items": [
+        {"original": "No sooner had the meeting started than the fire alarm went off.", "paraphrase": "The fire alarm rang right after the meeting began.", "meaning_ja": "会議が始まるとすぐに火災報知器が鳴った。", "point_ja": "No sooner A than B は、A するとすぐに B、という意味です。no があっても否定文ではありません。"},
+        {"original": "But for the volunteers, the festival could not have taken place.", "paraphrase": "The festival happened thanks to the volunteers.", "meaning_ja": "ボランティアがいなければ、祭りは開催できなかっただろう。", "point_ja": "But for は、〜がなければ、という仮定法の表現です。実際にはボランティアがいたので、祭りは開催されました。"},
+        {"original": "The village is all but deserted.", "paraphrase": "Almost nobody lives in the village now.", "meaning_ja": "その村はほとんど無人だ。", "point_ja": "all but は、〜以外すべて、ではなく、ほとんど〜、という意味です。anything but、決して〜ない、と混同しないよう注意してください。"},
+        {"original": "The service could not have been better.", "paraphrase": "The service was excellent.", "meaning_ja": "サービスはこれ以上ないほど良かった。", "point_ja": "否定語があるのに最高の褒め言葉です。これ以上良くなりえなかった、つまり最高だった、という意味です。"},
+        {"original": "The project was nothing short of a disaster.", "paraphrase": "The project was a complete failure.", "meaning_ja": "その計画はまさに大失敗だった。", "point_ja": "nothing short of は、まさに〜そのもの、という強調です。〜に届かない、という意味ではありません。"},
+        {"original": "She is not so much a scientist as a businessperson.", "paraphrase": "She is more of a businessperson than a scientist.", "meaning_ja": "彼女は科学者というよりむしろ実業家だ。", "point_ja": "not so much A as B は、A というよりむしろ B、です。B のほうが本当の姿です。"},
+        {"original": "The last thing the company wants is another lawsuit.", "paraphrase": "The company strongly wants to avoid another lawsuit.", "meaning_ja": "会社が最も望まないのは、さらなる訴訟だ。", "point_ja": "the last thing は、最後のもの、ではなく、最もありえないもの、最も望まないもの、という意味です。"},
+        {"original": "Economic growth has come at the expense of the environment.", "paraphrase": "The environment has been damaged as a result of economic growth.", "meaning_ja": "経済成長は環境を犠牲にして実現した。", "point_ja": "at the expense of は、〜を犠牲にして、です。何が得をして何が損をしたのかを正確に追いましょう。"},
+        {"original": "In the wake of the scandal, several executives resigned.", "paraphrase": "Several executives quit following the scandal.", "meaning_ja": "不祥事を受けて、数人の幹部が辞任した。", "point_ja": "in the wake of は、〜の後に、〜を受けて、です。wake は船の通った跡のことです。"},
+        {"original": "Few experts doubt that the climate is changing, let alone deny it.", "paraphrase": "Almost all experts accept that the climate is changing.", "meaning_ja": "気候が変化していることを疑う専門家はほとんどおらず、ましてや否定する人などいない。", "point_ja": "let alone は、ましてや〜ない、です。few、ほとんどいない、との組み合わせで、ほぼ全員が認めている、という意味になります。"},
+        {"original": "The tests were repeated several times, to no avail.", "paraphrase": "The repeated tests did not produce useful results.", "meaning_ja": "テストは何度か繰り返されたが、無駄だった。", "point_ja": "to no avail は、効果がなかった、無駄に終わった、という意味です。文末にあると聞き逃しやすいので注意です。"},
+        {"original": "The new rules apply regardless of age.", "paraphrase": "The rules apply to people of all ages.", "meaning_ja": "新しい規則は年齢に関係なく適用される。", "point_ja": "regardless of は、〜に関係なく、です。"}
+      ]
+    },
+    {
+      "id": "w1_paraphrase_04",
+      "title": "W1 言い換え 37〜48",
+      "items": [
+        {"original": "Prices are bound to rise if the shortage continues.", "paraphrase": "Prices will almost certainly go up if the shortage continues.", "meaning_ja": "品不足が続けば、価格は必ず上がる。", "point_ja": "be bound to は、きっと〜する、という強い予測です。しばられている、という意味ではありません。"},
+        {"original": "Older buildings are prone to damage in earthquakes.", "paraphrase": "Older buildings are more likely to be damaged in earthquakes.", "meaning_ja": "古い建物は地震で被害を受けやすい。", "point_ja": "be prone to は、〜しがちだ、〜を受けやすい、です。"},
+        {"original": "The new data is at odds with the official figures.", "paraphrase": "The new data does not match the official figures.", "meaning_ja": "新しいデータは公式の数字と食い違っている。", "point_ja": "at odds with は、〜と一致しない、対立している、です。"},
+        {"original": "The company failed to meet its sales target.", "paraphrase": "The company did not reach its sales goal.", "meaning_ja": "その会社は売上目標を達成できなかった。", "point_ja": "fail to は、〜しそこなう、つまり、〜しなかった、という否定の意味です。失敗した、という単語が出なくても否定文として言い換えられます。"},
+        {"original": "Hardly anyone attended the opening ceremony.", "paraphrase": "Very few people came to the opening ceremony.", "meaning_ja": "開会式にはほとんど誰も出席しなかった。", "point_ja": "hardly は、一生懸命に、ではなく、ほとんど〜ない、という否定です。hard と混同しないでください。"},
+        {"original": "It was not until she moved abroad that she realized the value of her family.", "paraphrase": "She only understood how important her family was after living overseas.", "meaning_ja": "海外に引っ越して初めて、彼女は家族の大切さに気づいた。", "point_ja": "It was not until A that B は、A して初めて B した、です。Not until の倒置と同じ意味です。"},
+        {"original": "You cannot be too careful when driving in the snow.", "paraphrase": "You should be as careful as possible when driving in the snow.", "meaning_ja": "雪道を運転するときは、いくら注意してもしすぎることはない。", "point_ja": "cannot be too は、注意しすぎてはいけない、ではなく、いくら〜してもしすぎることはない、という意味です。正反対に誤解しやすい代表例です。"},
+        {"original": "The minister spoke on behalf of the government.", "paraphrase": "The minister spoke as a representative of the government.", "meaning_ja": "大臣は政府を代表して発言した。", "point_ja": "on behalf of は、〜を代表して、〜の代わりに、です。"},
+        {"original": "Remote areas, as opposed to cities, still lack fast internet.", "paraphrase": "Unlike cities, remote areas still do not have fast internet.", "meaning_ja": "都市とは対照的に、遠隔地ではまだ高速インターネットがない。", "point_ja": "as opposed to は、〜とは対照的に、です。どちらにインターネットがないのか、主語を取り違えないよう注意してください。"},
+        {"original": "The concert was cancelled, much to the disappointment of fans.", "paraphrase": "Fans were very disappointed that the concert was cancelled.", "meaning_ja": "コンサートが中止になり、ファンはとてもがっかりした。", "point_ja": "much to the disappointment of は、〜がとてもがっかりしたことに、という意味で、文の後ろに感情が置かれる形です。"},
+        {"original": "The museum offers free entry in lieu of a discount for students.", "paraphrase": "Instead of giving students a discount, the museum lets them in for free.", "meaning_ja": "その博物館は学生に、割引の代わりに無料入場を提供している。", "point_ja": "in lieu of は、〜の代わりに、です。instead of と同じ意味です。"},
+        {"original": "The plan is far from perfect, but it is a step in the right direction.", "paraphrase": "The plan has problems, but it is an improvement.", "meaning_ja": "その計画は完璧からはほど遠いが、正しい方向への一歩だ。", "point_ja": "far from は、〜からほど遠い、つまり、全然〜ではない、という否定です。but の後の前向きな評価も聞き取りましょう。"}
+      ]
+    }
+  ]
+}

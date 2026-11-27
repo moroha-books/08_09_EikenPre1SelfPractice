@@ -1,0 +1,109 @@
+{
+  "category": "lecture",
+  "category_title": "説明文（Part 2形式）",
+  "description": "最優先の弱点対策。説明文 → 質問2問 → 考える間 → 正解と言い換え解説 → 重要語 → ゆっくり版をもう一度。",
+  "tracks": [
+    {
+      "id": "lecture_01",
+      "title": "Urban Heat Islands",
+      "title_ja": "都市のヒートアイランド",
+      "passage": "Cities are often several degrees warmer than the surrounding countryside, a phenomenon known as the urban heat island effect. Concrete and asphalt absorb heat during the day and release it slowly at night, while the lack of vegetation means there is little shade or evaporation to cool the air. As summers grow hotter, city planners have begun experimenting with solutions. Some have painted rooftops white to reflect sunlight, while others have planted thousands of street trees. However, researchers caution that these measures do not work equally well everywhere. In crowded neighborhoods with narrow streets, for example, reflective surfaces can bounce heat onto pedestrians and nearby buildings, actually making conditions worse at street level. Experts therefore recommend that cities study local conditions carefully before adopting any single approach.",
+      "questions": [
+        {"q": "Why are cities warmer than the countryside?",
+         "choices": ["Cities produce more electricity at night.", "Building materials store heat, and there are few plants.", "Cities are usually located at lower altitudes.", "Hot air from the countryside flows into cities."],
+         "answer": 1,
+         "explain_ja": "本文の absorb heat と lack of vegetation が、選択肢では store heat と few plants に言い換えられています。"},
+        {"q": "What do researchers say about reflective surfaces?",
+         "choices": ["They are the most effective solution in every city.", "They are too expensive for most cities.", "They can sometimes increase heat at street level.", "They should replace street trees."],
+         "answer": 2,
+         "explain_ja": "However の後が設問の根拠です。making conditions worse at street level が、increase heat at street level と言い換えられています。"}
+      ],
+      "vocab": [["phenomenon", "現象"], ["vegetation", "植物、草木"], ["evaporation", "蒸発"], ["caution", "注意を促す、警告する"], ["pedestrian", "歩行者"]]
+    },
+    {
+      "id": "lecture_02",
+      "title": "The Four-Day Workweek",
+      "title_ja": "週休3日制",
+      "passage": "In recent years, a number of companies around the world have tested a four-day workweek, in which employees work fewer hours without a reduction in pay. Supporters point to trial results showing that many workers reported lower stress levels and that productivity often remained stable or even improved. Some firms also found it easier to attract and retain skilled staff. Critics, however, argue that the model is difficult to apply in industries such as healthcare and retail, where customers need services every day. In such cases, companies may have to hire additional workers to cover the extra day off, which could raise costs significantly. Some economists also point out that many of the trials involved companies that volunteered to participate, so the positive results may not reflect what would happen if the policy were introduced more widely.",
+      "questions": [
+        {"q": "What is one benefit reported by companies that tried the four-day week?",
+         "choices": ["They were able to reduce employees' salaries.", "They found it easier to keep talented employees.", "They could close their offices permanently.", "They no longer needed to hire new staff."],
+         "answer": 1,
+         "explain_ja": "retain skilled staff が keep talented employees に言い換えられています。retain は、保持する、引き留める、という意味です。"},
+        {"q": "Why do some economists doubt the trial results?",
+         "choices": ["The trials lasted for too short a time.", "Workers exaggerated their stress levels.", "Healthcare companies refused to participate.", "The companies in the trials chose to take part."],
+         "answer": 3,
+         "explain_ja": "volunteered to participate が chose to take part に言い換えられています。自分から参加した会社ばかりなので、結果が偏っている可能性がある、という批判です。"}
+      ],
+      "vocab": [["productivity", "生産性"], ["retain", "保持する、引き留める"], ["retail", "小売業"], ["significantly", "大幅に"], ["reflect", "反映する"]]
+    },
+    {
+      "id": "lecture_03",
+      "title": "The Secret of Roman Concrete",
+      "title_ja": "古代ローマのコンクリートの秘密",
+      "passage": "For centuries, engineers have wondered why some Roman structures, such as harbors built nearly two thousand years ago, are still standing, while modern concrete often begins to crack within decades. Recent research suggests that part of the answer lies in small white lumps of lime found throughout Roman concrete. Scientists had long assumed these lumps were simply the result of poor mixing. However, a study published in 2023 proposed that they were actually key to the material's durability. When cracks form and water seeps in, the lime dissolves and then hardens again, effectively sealing the cracks. This self-healing ability may help explain the remarkable longevity of Roman buildings. Some engineers now hope to adapt the technique to modern construction, which could reduce the large amount of carbon dioxide produced by manufacturing new cement.",
+      "questions": [
+        {"q": "What did scientists previously believe about the white lumps?",
+         "choices": ["They were a sign of careless production.", "They were added to make the concrete lighter.", "They made the concrete stronger.", "They were caused by seawater."],
+         "answer": 0,
+         "explain_ja": "had long assumed は、長い間そう思い込んでいた、つまり今は違う、という合図です。poor mixing が careless production に言い換えられています。C は新しい研究の内容なので、以前の考えではありません。"},
+        {"q": "Why are some engineers interested in the Roman technique?",
+         "choices": ["It makes buildings cheaper to design.", "It allows concrete to dry more quickly.", "It could help lower carbon emissions.", "It uses less water than modern methods."],
+         "answer": 2,
+         "explain_ja": "最後の文の reduce the large amount of carbon dioxide が lower carbon emissions に言い換えられています。"}
+      ],
+      "vocab": [["durability", "耐久性"], ["seep in", "しみ込む"], ["dissolve", "溶ける"], ["longevity", "長寿命、長持ち"], ["adapt", "応用する、適応させる"]]
+    },
+    {
+      "id": "lecture_04",
+      "title": "Saving Endangered Languages",
+      "title_ja": "消滅危機言語を守る",
+      "passage": "Of the roughly seven thousand languages spoken today, linguists estimate that around forty percent are endangered, many with fewer than a thousand speakers. When a language disappears, communities may lose not only words but also traditional knowledge, such as how to identify medicinal plants or predict changes in the weather. In the past, many minority languages declined because governments discouraged or even banned their use in schools. Today, the main pressure is more subtle. Parents often choose to raise their children in a dominant language because they believe it will offer better economic opportunities. Nevertheless, there have been some notable success stories. In New Zealand, so-called language nests, preschools where young children are immersed in the Maori language, helped revive a language that had been in steep decline. Experts say such efforts tend to succeed only when the community itself, rather than outside organizations, takes the lead.",
+      "questions": [
+        {"q": "According to the speaker, why do many languages decline today?",
+         "choices": ["Governments still ban them in schools.", "Parents choose another language for economic reasons.", "Children find minority languages too difficult.", "There are not enough qualified teachers."],
+         "answer": 1,
+         "explain_ja": "In the past と Today の対比に注意です。学校での禁止は過去の話なので A は引っかけです。Today の後の better economic opportunities が economic reasons に言い換えられています。"},
+        {"q": "What do experts say about efforts to revive languages?",
+         "choices": ["They require funding from international groups.", "They are only effective for adults.", "They work best when led by the local community.", "They have failed in most countries."],
+         "answer": 2,
+         "explain_ja": "the community itself takes the lead が led by the local community に言い換えられています。rather than outside organizations とあるので A は逆です。"}
+      ],
+      "vocab": [["endangered", "絶滅の危機にある"], ["medicinal", "薬効のある"], ["subtle", "微妙な、目立たない"], ["immerse", "どっぷり浸らせる"], ["revive", "復活させる"]]
+    },
+    {
+      "id": "lecture_05",
+      "title": "Wolves in Yellowstone",
+      "title_ja": "イエローストーンのオオカミ",
+      "passage": "Rewilding is a conservation approach that aims to restore ecosystems by allowing natural processes to take over, often by reintroducing species that have disappeared from an area. One of the best-known examples took place in Yellowstone National Park in the United States, where wolves were reintroduced in 1995 after an absence of about seventy years. Researchers reported that the wolves reduced the number of elk, which had been overgrazing young trees along rivers. As a result, some plant life recovered, providing habitat for birds and beavers. However, more recent studies suggest that the story may be more complicated than first believed. Factors such as drought, human hunting, and the return of other predators like bears also influenced elk populations. Scientists say this does not mean rewilding fails, but that ecosystems rarely respond to a single change in a simple, predictable way.",
+      "questions": [
+        {"q": "According to early reports, what happened after wolves returned to Yellowstone?",
+         "choices": ["Elk populations grew rapidly.", "Bears left the park.", "Rivers began to dry up.", "Some plants recovered because elk ate less of them."],
+         "answer": 3,
+         "explain_ja": "オオカミがヘラジカを減らし、木の食べ過ぎが減った結果、植物が回復した、という因果関係です。overgrazing は、家畜や動物が草木を食べ過ぎることです。"},
+        {"q": "What do more recent studies suggest?",
+         "choices": ["Wolves should be removed from the park.", "Several factors contributed to the changes in the park.", "Rewilding projects never succeed.", "Beavers caused the decline in elk."],
+         "answer": 1,
+         "explain_ja": "However の後の more complicated と、干ばつ、狩猟、クマなど複数の要因が、several factors にまとめて言い換えられています。does not mean rewilding fails とあるので C は逆です。"}
+      ],
+      "vocab": [["ecosystem", "生態系"], ["overgraze", "（草木を）食べ過ぎる"], ["habitat", "生息地"], ["drought", "干ばつ"], ["predator", "捕食者"]]
+    },
+    {
+      "id": "lecture_06",
+      "title": "The Power of the Nudge",
+      "title_ja": "ナッジの力",
+      "passage": "In 2008, economist Richard Thaler and legal scholar Cass Sunstein popularized the idea of the nudge, a small change in how choices are presented that encourages people to make better decisions without restricting their freedom. A classic example involves retirement savings. When companies automatically enroll employees in a savings plan and allow them to opt out, participation rates rise dramatically compared with plans that require workers to sign up on their own. Governments around the world have since set up special units to apply such insights to areas ranging from tax collection to organ donation. Critics, however, warn that nudges can be manipulative, especially when people are unaware that their choices are being influenced. Others note that while nudges can produce quick, low-cost improvements, they are no substitute for addressing deeper problems, such as low wages that leave people with little money to save.",
+      "questions": [
+        {"q": "Why did participation in retirement plans increase?",
+         "choices": ["Employees were given higher salaries.", "Workers were included automatically unless they chose to leave.", "Companies made the plans mandatory.", "The government offered tax refunds."],
+         "answer": 1,
+         "explain_ja": "automatically enroll と allow them to opt out が、included automatically unless they chose to leave に言い換えられています。opt out できるので、mandatory、つまり強制、の C は誤りです。"},
+        {"q": "What is one criticism of nudges mentioned by the speaker?",
+         "choices": ["They are too expensive for governments.", "They only work for tax collection.", "They take too long to show results.", "They may influence people without their knowledge."],
+         "answer": 3,
+         "explain_ja": "people are unaware that their choices are being influenced が、without their knowledge に言い換えられています。quick, low-cost とあるので A と C は逆です。"}
+      ],
+      "vocab": [["popularize", "広める"], ["enroll", "登録する、加入させる"], ["opt out", "（制度から）抜ける"], ["manipulative", "人を操ろうとする"], ["no substitute for", "〜の代わりにはならない"]]
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "category": "dialogue",
+  "category_title": "会話の本音（Part 1形式）",
+  "description": "1週目：会話10問。",
+  "tracks": [
+    {
+      "id": "w1_dialogue_01",
+      "title": "W1 会話の本音 11〜15",
+      "items": [
+        {
+          "lines": [
+            [
+              "F",
+              "So, what did you think of the new apartment?"
+            ],
+            [
+              "M",
+              "The location's great, and I love the kitchen."
+            ],
+            [
+              "F",
+              "But?"
+            ],
+            [
+              "M",
+              "Well, the rent is about two hundred dollars more than we agreed to spend. I'm just not sure we can stretch that far every month."
+            ],
+            [
+              "F",
+              "Hmm. Maybe we should keep looking, then."
+            ]
+          ],
+          "question": "Why is the man hesitant about the apartment?",
+          "choices": [
+            "It is too far from their workplaces.",
+            "The kitchen is too small.",
+            "It is more expensive than their budget.",
+            "The landlord seems unfriendly."
+          ],
+          "answer": 2,
+          "explain_ja": "女性の But? は、何か問題があるんでしょう、という促しです。rent is about two hundred dollars more than we agreed to spend が、予算より高い、に言い換えられています。stretch は、お金をやりくりして無理をする、という意味です。",
+          "keys": [
+            [
+              "stretch",
+              "（予算を）無理して広げる"
+            ],
+            [
+              "keep looking",
+              "探し続ける"
+            ]
+          ]
+        },
+        {
+          "lines": [
+            [
+              "M",
+              "Ms. Garcia, have you had a chance to review my report on the supplier contracts?"
+            ],
+            [
+              "F",
+              "I skimmed it. It's thorough, but the conclusion section is a little thin."
+            ],
+            [
+              "M",
+              "Thin? I thought it summarized everything."
+            ],
+            [
+              "F",
+              "It summarizes, but it doesn't tell me what you'd actually recommend. That's what the board will want to see."
+            ]
+          ],
+          "question": "What does the woman want the man to do?",
+          "choices": [
+            "Add clear recommendations to the conclusion.",
+            "Shorten the entire report.",
+            "Contact the suppliers again.",
+            "Present the report to the board himself."
+          ],
+          "answer": 0,
+          "explain_ja": "thin は、内容が薄い、という意味です。it doesn't tell me what you'd actually recommend から、提案を加えてほしい、とわかります。skim は、ざっと目を通す、です。",
+          "keys": [
+            [
+              "skim",
+              "ざっと目を通す"
+            ],
+            [
+              "thin",
+              "（内容が）薄い、物足りない"
+            ]
+          ]
+        },
+        {
+          "lines": [
+            [
+              "F",
+              "Dad, can I borrow the car this weekend? Jenny and I want to drive to the lake."
+            ],
+            [
+              "M",
+              "The lake? That's a three-hour drive, and you only got your license last month."
+            ],
+            [
+              "F",
+              "I'm a careful driver, though."
+            ],
+            [
+              "M",
+              "I'm sure you are. Tell you what, why don't I drive you both there, and you can take the wheel on the way back if the roads are quiet?"
+            ]
+          ],
+          "question": "What does the father suggest?",
+          "choices": [
+            "His daughter should go to a closer place.",
+            "They should take a bus to the lake.",
+            "Jenny should drive the whole way.",
+            "He will take them and let his daughter drive part of the way."
+          ],
+          "answer": 3,
+          "explain_ja": "Tell you what は、こうしよう、という提案の前置きです。take the wheel は、運転する、という意味です。行きは父が運転し、帰りは娘が運転する、という提案です。",
+          "keys": [
+            [
+              "Tell you what",
+              "じゃあこうしよう（提案の前置き）"
+            ],
+            [
+              "take the wheel",
+              "運転を代わる"
+            ]
+          ]
+        },
+        {
+          "lines": [
+            [
+              "M",
+              "Did you finish the novel I lent you?"
+            ],
+            [
+              "F",
+              "I got about halfway through."
+            ],
+            [
+              "M",
+              "Only halfway? I couldn't put it down."
+            ],
+            [
+              "F",
+              "To be honest, I found the main character hard to sympathize with. I kept waiting for something to happen, and it never really did."
+            ]
+          ],
+          "question": "What does the woman think about the novel?",
+          "choices": [
+            "It was too short.",
+            "It was exciting from start to finish.",
+            "It was slow and not very engaging.",
+            "It was difficult to understand because of its vocabulary."
+          ],
+          "answer": 2,
+          "explain_ja": "I kept waiting for something to happen, and it never really did が、展開が遅くて退屈、という意味です。男性の couldn't put it down は、夢中で読むのをやめられなかった、なので、二人の感想は反対です。",
+          "keys": [
+            [
+              "couldn't put it down",
+              "夢中で読むのをやめられなかった"
+            ],
+            [
+              "sympathize with",
+              "〜に共感する"
+            ]
+          ]
+        },
+        {
+          "lines": [
+            [
+              "F",
+              "Excuse me, I bought this jacket here last week, and the zipper is already broken."
+            ],
+            [
+              "M",
+              "I'm sorry about that. Do you have your receipt?"
+            ],
+            [
+              "F",
+              "Here it is."
+            ],
+            [
+              "M",
+              "Thank you. Unfortunately, we're out of that size in this color, but I can either give you a full refund or order one from another branch. It would take about a week."
+            ],
+            [
+              "F",
+              "I need it for a trip on Friday, so I'll take the money back."
+            ]
+          ],
+          "question": "What will the woman do?",
+          "choices": [
+            "Wait for a new jacket to be ordered.",
+            "Choose a jacket in a different color.",
+            "Get her money back.",
+            "Have the zipper repaired."
+          ],
+          "answer": 2,
+          "explain_ja": "I'll take the money back が、get her money back、つまり返金を受ける、です。金曜日に必要なので、1週間かかる取り寄せは選びませんでした。",
+          "keys": [
+            [
+              "refund",
+              "返金"
+            ],
+            [
+              "out of",
+              "〜を切らしている"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w1_dialogue_02",
+      "title": "W1 会話の本音 16〜20",
+      "items": [
+        {
+          "lines": [
+            [
+              "M",
+              "Have you heard? They're moving our department to the new building downtown."
+            ],
+            [
+              "F",
+              "Really? That'll add forty minutes to my commute."
+            ],
+            [
+              "M",
+              "Apparently, they're offering a transportation allowance."
+            ],
+            [
+              "F",
+              "That's something, I suppose. But money won't give me those forty minutes back."
+            ]
+          ],
+          "question": "How does the woman feel about the move?",
+          "choices": [
+            "She is pleased about the allowance.",
+            "She plans to quit her job.",
+            "She wants to work in the new building.",
+            "She is unhappy about the longer commute."
+          ],
+          "answer": 3,
+          "explain_ja": "That's something, I suppose は、ないよりはまし、という消極的な評価です。その後の but が本音で、通勤時間が長くなることへの不満を表しています。",
+          "keys": [
+            [
+              "allowance",
+              "手当"
+            ],
+            [
+              "That's something",
+              "ないよりはまし"
+            ]
+          ]
+        },
+        {
+          "lines": [
+            [
+              "F",
+              "Doctor, my back has been hurting for about two weeks now."
+            ],
+            [
+              "M",
+              "Have you been doing anything different lately? Lifting heavy things, perhaps?"
+            ],
+            [
+              "F",
+              "Not really. Although I did start working from home, and I've been using the kitchen table as a desk."
+            ],
+            [
+              "M",
+              "That might explain it. Before we consider any medication, I'd look at your chair and screen height."
+            ]
+          ],
+          "question": "What does the doctor think?",
+          "choices": [
+            "The woman needs strong pain medicine.",
+            "The woman's work setup may be causing the pain.",
+            "The woman injured her back lifting something.",
+            "The woman should stop working from home."
+          ],
+          "answer": 1,
+          "explain_ja": "That might explain it は、それが原因かもしれない、という意味です。薬より先に、椅子と画面の高さを見直すよう勧めています。work setup は、仕事の環境、という言い換えです。",
+          "keys": [
+            [
+              "That might explain it",
+              "それが原因かもしれない"
+            ],
+            [
+              "medication",
+              "薬、薬物治療"
+            ]
+          ]
+        },
+        {
+          "lines": [
+            [
+              "M",
+              "I'm thinking of signing up for that marathon in April."
+            ],
+            [
+              "F",
+              "A full marathon? You've never run more than five kilometers."
+            ],
+            [
+              "M",
+              "I've got five months to train."
+            ],
+            [
+              "F",
+              "Well, if you're serious, you might want to start with the half marathon in February and see how your body handles it."
+            ]
+          ],
+          "question": "What does the woman suggest?",
+          "choices": [
+            "The man should give up running.",
+            "The man should try a shorter race first.",
+            "The man should run the marathon in February.",
+            "The man should train with a coach."
+          ],
+          "answer": 1,
+          "explain_ja": "you might want to は、〜したほうがいいかもね、という柔らかい提案です。the half marathon が、shorter race に言い換えられています。",
+          "keys": [
+            [
+              "you might want to",
+              "〜するといいかもしれない（柔らかい提案）"
+            ],
+            [
+              "handle",
+              "対処する、耐える"
+            ]
+          ]
+        },
+        {
+          "lines": [
+            [
+              "F",
+              "Jim, the client called. She wants the presentation moved up to Monday."
+            ],
+            [
+              "M",
+              "Monday? We were planning on Wednesday. The design team hasn't even finished the slides."
+            ],
+            [
+              "F",
+              "I know. I told her it'd be tight, but she has a board meeting on Tuesday."
+            ],
+            [
+              "M",
+              "Then I guess we're working this weekend. I'll let the design team know."
+            ]
+          ],
+          "question": "What will the man probably do?",
+          "choices": [
+            "Ask the client to keep the Wednesday date.",
+            "Cancel the presentation.",
+            "Work over the weekend to meet the new deadline.",
+            "Attend the client's board meeting."
+          ],
+          "answer": 2,
+          "explain_ja": "move up は、予定を早める、という意味です。put off、延期する、の反対です。Then I guess we're working this weekend から、週末に作業して間に合わせることがわかります。",
+          "keys": [
+            [
+              "move up",
+              "（予定を）早める"
+            ],
+            [
+              "tight",
+              "（時間が）ぎりぎりの"
+            ]
+          ]
+        },
+        {
+          "lines": [
+            [
+              "M",
+              "How was the cooking class?"
+            ],
+            [
+              "F",
+              "The chef was entertaining, but we spent most of the time watching him rather than cooking."
+            ],
+            [
+              "M",
+              "That's not really a class, then, is it?"
+            ],
+            [
+              "F",
+              "Exactly. For that price, I expected to get my hands dirty. I'll look for something more practical next time."
+            ]
+          ],
+          "question": "What was the woman's complaint about the cooking class?",
+          "choices": [
+            "The chef was not entertaining.",
+            "It did not give students enough hands-on practice.",
+            "The kitchen was not clean.",
+            "It was cheaper than she expected."
+          ],
+          "answer": 1,
+          "explain_ja": "get my hands dirty は、実際に手を動かす、という意味です。見ているだけで実習が少なかった、という不満を、hands-on practice と言い換えています。",
+          "keys": [
+            [
+              "get one's hands dirty",
+              "自分で実際にやる"
+            ],
+            [
+              "hands-on",
+              "実践的な、体験型の"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

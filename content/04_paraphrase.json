@@ -1,0 +1,43 @@
+{
+  "category": "paraphrase",
+  "category_title": "言い換え・誤読トラップ",
+  "description": "本文の表現が選択肢でどう言い換えられるか。否定・倒置など、意味を逆に取りやすい形も含む。本文 → 考える間 → 言い換え → 日本語の意味とポイント。",
+  "tracks": [
+    {
+      "id": "paraphrase_01",
+      "title": "言い換え 1〜12",
+      "items": [
+        {"original": "The plan was met with fierce opposition from local residents.", "paraphrase": "Many people in the area strongly objected to the plan.", "meaning_ja": "その計画は地元住民から激しい反対にあった。", "point_ja": "be met with は、〜という反応を受ける、という意味です。"},
+        {"original": "Sales have fallen for the third consecutive quarter.", "paraphrase": "Sales have declined three quarters in a row.", "meaning_ja": "売り上げは3四半期連続で減少した。", "point_ja": "consecutive と in a row は、どちらも、連続して、です。"},
+        {"original": "The findings cast doubt on earlier assumptions.", "paraphrase": "The results made researchers question previous beliefs.", "meaning_ja": "その発見は、以前の想定に疑問を投げかけた。", "point_ja": "cast doubt on は、〜に疑いを投げかける、つまり、正しいか怪しくなる、という意味です。"},
+        {"original": "The policy has yet to be implemented.", "paraphrase": "The policy has not been put into practice.", "meaning_ja": "その政策はまだ実施されていない。", "point_ja": "has yet to は、not がないのに否定の意味です。まだ〜していない、と覚えてください。誤読の多い表現です。"},
+        {"original": "The new drug is anything but safe.", "paraphrase": "The new drug is far from safe.", "meaning_ja": "その新薬は決して安全ではない。", "point_ja": "anything but は、何でもいい、ではなく、決して〜ではない、という強い否定です。正反対に取りやすいので注意してください。"},
+        {"original": "Few people could have predicted the outcome.", "paraphrase": "The result surprised most people.", "meaning_ja": "その結果を予想できた人はほとんどいなかった。", "point_ja": "a がない few は、少しいる、ではなく、ほとんどいない、という否定の意味です。"},
+        {"original": "The company can no longer keep up with demand.", "paraphrase": "The company cannot produce enough to meet demand.", "meaning_ja": "その会社はもはや需要に追いつけない。", "point_ja": "keep up with は、〜に遅れずについていく、です。"},
+        {"original": "The tradition dates back to the twelfth century.", "paraphrase": "The custom has existed for more than eight hundred years.", "meaning_ja": "その伝統は12世紀にさかのぼる。", "point_ja": "年代が、何年間続いている、という期間に言い換えられるパターンです。"},
+        {"original": "His remarks sparked widespread criticism.", "paraphrase": "Many people criticized what he said.", "meaning_ja": "彼の発言は広範な批判を巻き起こした。", "point_ja": "spark は、火花、から、〜を引き起こす、という意味です。"},
+        {"original": "The town relies heavily on tourism.", "paraphrase": "Tourism is a major source of income for the town.", "meaning_ja": "その町は観光に大きく依存している。", "point_ja": "主語と目的語が入れ替わる言い換えです。どちらが何に頼っているのかを正確に追いましょう。"},
+        {"original": "The scheme proved to be far more costly than expected.", "paraphrase": "The project turned out to be much more expensive than planned.", "meaning_ja": "その計画は予想よりはるかに費用がかかることがわかった。", "point_ja": "prove to be と turn out to be は、どちらも、結果的に〜だとわかる、です。scheme はイギリス英語で、計画、の意味です。"},
+        {"original": "Not until the 1950s was the disease fully understood.", "paraphrase": "The disease was not fully understood before the 1950s.", "meaning_ja": "1950年代になって初めて、その病気は完全に解明された。", "point_ja": "Not until で始まる倒置文です。〜まで理解されなかった、つまり、〜になって初めて理解された、という意味です。"}
+      ]
+    },
+    {
+      "id": "paraphrase_02",
+      "title": "言い換え 13〜24",
+      "items": [
+        {"original": "The species is on the verge of extinction.", "paraphrase": "The species may soon die out.", "meaning_ja": "その種は絶滅の瀬戸際にある。", "point_ja": "on the verge of は、今にも〜しそう、という意味です。まだ絶滅はしていません。"},
+        {"original": "Critics argue that the benefits have been overstated.", "paraphrase": "Some people believe the advantages have been exaggerated.", "meaning_ja": "批判者たちは、利点が誇張されてきたと主張している。", "point_ja": "overstate は、大げさに言う、です。利点がない、とまでは言っていない点に注意です。"},
+        {"original": "The new law will come into effect next April.", "paraphrase": "The law will start to apply next April.", "meaning_ja": "新しい法律は来年4月に施行される。", "point_ja": "come into effect は、効力を持ち始める、つまり施行される、という意味です。"},
+        {"original": "There is little evidence to support the claim.", "paraphrase": "The claim is not well supported.", "meaning_ja": "その主張を裏づける証拠はほとんどない。", "point_ja": "a がない little は、少しある、ではなく、ほとんどない、という否定です。"},
+        {"original": "She was reluctant to accept the offer.", "paraphrase": "She hesitated to accept the offer.", "meaning_ja": "彼女はその申し出を受けることに気が進まなかった。", "point_ja": "reluctant は、気が進まない、です。断った、とは限りません。"},
+        {"original": "The museum owes its success largely to volunteers.", "paraphrase": "Volunteers are mainly responsible for the museum's success.", "meaning_ja": "その博物館の成功は、主にボランティアのおかげだ。", "point_ja": "owe A to B は、A は B のおかげ、という意味です。借金の話ではありません。"},
+        {"original": "The government has cracked down on illegal fishing.", "paraphrase": "The government has taken strict action against illegal fishing.", "meaning_ja": "政府は違法漁業を厳しく取り締まった。", "point_ja": "crack down on は、〜を厳しく取り締まる、です。"},
+        {"original": "The two theories are not mutually exclusive.", "paraphrase": "Both theories can be true at the same time.", "meaning_ja": "二つの理論は互いに矛盾するものではない。", "point_ja": "mutually exclusive は、両立しない、という意味です。not がつくと、両方成り立ちうる、になります。"},
+        {"original": "Had the bridge been inspected, the accident might have been prevented.", "paraphrase": "The bridge was not inspected, which may have led to the accident.", "meaning_ja": "橋が点検されていたら、事故は防げたかもしれない。", "point_ja": "If が省略された仮定法の倒置です。Had で始まったら、実際には点検されなかった、と読み取りましょう。"},
+        {"original": "The decision was by no means unanimous.", "paraphrase": "Not everyone agreed with the decision.", "meaning_ja": "その決定は決して全会一致ではなかった。", "point_ja": "by no means は、決して〜ない、という強い否定です。"},
+        {"original": "Demand for the product far outstrips supply.", "paraphrase": "There is not enough of the product to meet demand.", "meaning_ja": "その製品の需要は供給をはるかに上回っている。", "point_ja": "outstrip は、〜を上回る、です。品不足の状態を表しています。"},
+        {"original": "The researchers stopped short of calling it a cure.", "paraphrase": "The researchers did not go so far as to say it was a cure.", "meaning_ja": "研究者たちは、それを治療法と呼ぶまでには至らなかった。", "point_ja": "stop short of は、〜する手前で止まる、つまり、そこまでは言わない、という意味です。治療法だと言った、と誤解しやすいので注意です。"}
+      ]
+    }
+  ]
+}

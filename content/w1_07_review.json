@@ -1,0 +1,18 @@
+{
+  "category": "review",
+  "category_title": "復習（本文だけ連続）",
+  "description": "1週目の説明文15本の本文だけを連続再生。週の後半や週末の復習・シャドーイング用。",
+  "tracks": [
+    {
+      "id": "w1_review_normal",
+      "title": "W1 説明文15本 通し（通常速度）",
+      "from": ["w1_01_lectures.json", "w1_02_lectures.json"]
+    },
+    {
+      "id": "w1_review_slow",
+      "title": "W1 説明文15本 通し（ゆっくり・シャドーイング用）",
+      "from": ["w1_01_lectures.json", "w1_02_lectures.json"],
+      "slow": true
+    }
+  ]
+}

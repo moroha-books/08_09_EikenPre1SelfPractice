@@ -1,0 +1,61 @@
+{
+  "category": "reallife",
+  "category_title": "Real-Life（Part 3形式）",
+  "description": "1週目：Part 3形式6問。状況と質問 → 本文 → 選択肢 → 解説。",
+  "tracks": [
+    {
+      "id": "w1_reallife_01",
+      "title": "W1 Real-Life 1〜6",
+      "items": [
+        {
+          "situation": "You are at an airport. Your flight to Chicago has been delayed. You want to reach Chicago as early as possible. You hear the following announcement.",
+          "question": "What should you do?",
+          "passage": "Attention, passengers on Flight 482 to Chicago. Due to a mechanical issue, this flight is now expected to depart at nine p.m., about four hours behind schedule. Passengers who wish to keep their current booking may collect a meal voucher at the service desk near Gate 12. Alternatively, a limited number of seats are available on Flight 316, which departs for Chicago at six thirty p.m. from Gate 20. If you would like to transfer to this flight, please speak to an agent at Gate 20 rather than at the service desk. Passengers with connecting flights in Chicago should check with the service desk.",
+          "choices": ["Go to the service desk near Gate 12.", "Speak to an agent at Gate 20.", "Wait for the nine p.m. flight.", "Collect a meal voucher."],
+          "answer": 1,
+          "explain_ja": "できるだけ早く着きたいので、6時半発の316便に乗り換えます。rather than at the service desk とあるので、窓口ではなく Gate 20 の係員に話します。Part 3 は、条件に合う情報だけを選ぶ問題です。"
+        },
+        {
+          "situation": "You are buying a new laptop for work. You mainly need a long battery life, and your budget is one thousand dollars. A salesperson tells you the following.",
+          "question": "Which laptop should you buy?",
+          "passage": "Okay, so let me go through what we have. The Swift 14 is our lightest model at eight hundred dollars, but the battery only lasts about six hours. The Orion Pro has an excellent screen and lasts around eighteen hours, but it's on the expensive side at fourteen hundred. If battery life is your priority, I'd also look at the Terra Air. It runs for about fifteen hours and is currently on sale for nine hundred and fifty. And the Nova X is very powerful for gaming, at nine hundred, though you'll get maybe five hours out of it.",
+          "choices": ["The Swift 14.", "The Orion Pro.", "The Terra Air.", "The Nova X."],
+          "answer": 2,
+          "explain_ja": "条件は、バッテリーが長いことと予算千ドル以内の二つです。Orion Pro はバッテリーは最長ですが千四百ドルで予算オーバーです。両方の条件を満たすのは Terra Air です。on the expensive side は、高めの、という意味です。"
+        },
+        {
+          "situation": "You are a new employee. You want to get your employee ID card today. You hear the following voicemail from the human resources department.",
+          "question": "What should you do first?",
+          "passage": "Hi, this is Karen from human resources. Welcome to the company. I'm calling about your employee ID card. Normally, you'd pick it up from our office on the third floor, but our card printer is being repaired today, so cards are being issued at the security office in the lobby instead. Before you go there, though, you'll need to upload a photo to the employee portal. Security can't print anything without it. Once that's done, just stop by the lobby any time before five. Thanks.",
+          "choices": ["Go to the human resources office on the third floor.", "Visit the security office in the lobby.", "Upload a photo to the employee portal.", "Call Karen back before five."],
+          "answer": 2,
+          "explain_ja": "質問は、最初に何をすべきか、です。Before you go there, though の後に、まず写真をアップロードする、とあります。B は2番目にすることです。順番を問う問題では、before や once that's done に注意しましょう。"
+        },
+        {
+          "situation": "You want to visit a museum this Saturday with your two children, aged eight and twelve. You want to spend as little as possible. You hear the following recorded message.",
+          "question": "How can you get the lowest admission price?",
+          "passage": "Thank you for calling the City Science Museum. Regular admission is fifteen dollars for adults and eight dollars for children aged six to seventeen. Children under six enter for free. This month, we are offering a family pass for thirty dollars, which covers two adults and up to three children, but it is only valid on weekdays. On weekends, visitors who book online at least one day in advance receive twenty percent off regular admission. Please note that tickets purchased at the door on weekends are full price.",
+          "choices": ["Buy a family pass at the museum.", "Book tickets online by Friday.", "Buy regular tickets at the door.", "Visit before your children turn six."],
+          "answer": 1,
+          "explain_ja": "家族パスは一番安く見えますが、only valid on weekdays なので土曜日は使えません。週末は、前日までにオンラインで予約すると2割引きです。but only や please note の後には、条件の落とし穴がよくあります。"
+        },
+        {
+          "situation": "You are staying at a hotel and want to go to the city's art district tomorrow morning. You do not want to walk far. The hotel receptionist tells you the following.",
+          "question": "What should you do?",
+          "passage": "The art district? Sure. The quickest way is usually the subway, but the Green Line station near the art district is closed for repairs this week, so you'd have to walk about twenty minutes from the next station. The number seven bus stops right in front of the main gallery, though. It's slower, around thirty-five minutes, but it leaves from just across the street. Taxis are also an option, but traffic in the morning is terrible, and it could easily cost you forty dollars.",
+          "choices": ["Take the Green Line subway.", "Take the number seven bus.", "Walk from the hotel.", "Rent a bicycle."],
+          "answer": 1,
+          "explain_ja": "条件は、あまり歩きたくない、です。地下鉄は駅が閉鎖中で20分歩く必要があります。7番のバスはギャラリーの目の前に止まり、乗り場もホテルの向かいです。right in front of と just across the street が決め手です。"
+        },
+        {
+          "situation": "You ordered a sofa online, but it arrived damaged. You want a replacement, not a refund. You call customer service and hear the following.",
+          "question": "What should you do?",
+          "passage": "Thank you for calling Home Comfort Furniture. For questions about delivery times, please press one. If your item arrived damaged and you would like a refund, please press two to be connected to our returns team. If you would like to receive a replacement for a damaged item, please press three. You will be asked to send photos of the damage by email. For all other inquiries, please press four or stay on the line.",
+          "choices": ["Press one.", "Press two.", "Press three.", "Press four."],
+          "answer": 2,
+          "explain_ja": "返金ではなく交換を希望しているので、3番を押します。2番も damaged という同じ単語が出てくるので、引っかかりやすい選択肢です。replacement、交換、と refund、返金、を聞き分けましょう。"
+        }
+      ]
+    }
+  ]
+}

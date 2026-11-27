@@ -1,0 +1,527 @@
+{
+  "category": "lecture",
+  "category_title": "説明文（Part 2形式）",
+  "description": "1週目：説明文（続き）。",
+  "tracks": [
+    {
+      "id": "w1_lecture_06",
+      "title": "W1-6 Deep-Sea Mining",
+      "title_ja": "深海採掘",
+      "passage": "On parts of the deep ocean floor lie potato-sized rocks called nodules, which contain valuable metals such as nickel, cobalt, and manganese. These metals are essential for the batteries used in electric vehicles, and some companies argue that collecting nodules from the seabed would cause less harm than digging new mines on land, where forests and local communities may be affected. Marine scientists, however, are deeply concerned. The deep sea is one of the least explored environments on Earth, and many of the species living there have not yet been identified. Mining machines could stir up clouds of sediment that spread for great distances, and because deep-sea ecosystems recover extremely slowly, any damage could last for decades or longer. Several countries and major companies have called for a pause on deep-sea mining until more research has been carried out.",
+      "questions": [
+        {
+          "q": "Why do some companies support deep-sea mining?",
+          "choices": [
+            "It is much cheaper than recycling batteries.",
+            "Electric vehicles no longer need nickel.",
+            "Deep-sea species are well understood.",
+            "It may be less damaging than mining on land."
+          ],
+          "answer": 3,
+          "explain_ja": "would cause less harm than digging new mines on land が、less damaging than mining on land に言い換えられています。"
+        },
+        {
+          "q": "What have several countries and companies done?",
+          "choices": [
+            "Asked for mining to be delayed until it is better studied.",
+            "Started mining nodules on a large scale.",
+            "Created new species protection laws on land.",
+            "Invested in machines that reduce sediment."
+          ],
+          "answer": 0,
+          "explain_ja": "called for a pause until more research has been carried out が、asked for mining to be delayed until it is better studied に言い換えられています。carry out は句動詞トラックで学んだ、実施する、です。"
+        }
+      ],
+      "vocab": [
+        [
+          "seabed",
+          "海底"
+        ],
+        [
+          "essential",
+          "不可欠な"
+        ],
+        [
+          "sediment",
+          "堆積物、沈殿物"
+        ],
+        [
+          "stir up",
+          "かき乱す、巻き上げる"
+        ],
+        [
+          "call for",
+          "要求する"
+        ]
+      ]
+    },
+    {
+      "id": "w1_lecture_07",
+      "title": "W1-7 The Gig Economy",
+      "title_ja": "ギグエコノミー",
+      "passage": "The gig economy refers to work arranged through apps and websites, such as food delivery and ride-sharing, in which people are paid for individual tasks rather than receiving a regular salary. For many workers, its main attraction is flexibility. They can choose when and how much to work, which suits students, parents, and people with other jobs. However, most gig workers are classified as independent contractors rather than employees. This means they usually do not receive benefits such as paid holidays, sick leave, or employer contributions to pensions. In recent years, courts and governments in several countries have begun to challenge this arrangement. In Britain, for instance, the Supreme Court ruled in 2021 that Uber drivers should be treated as workers entitled to minimum wage and holiday pay. Companies warn that such rules could force them to raise prices or reduce the flexibility that workers value.",
+      "questions": [
+        {
+          "q": "What is a disadvantage for many gig workers?",
+          "choices": [
+            "They often lack benefits like paid holidays.",
+            "They cannot choose their working hours.",
+            "They must work for a single company.",
+            "They are paid only once a year."
+          ],
+          "answer": 0,
+          "explain_ja": "do not receive benefits such as paid holidays が、lack benefits like paid holidays に言い換えられています。lack は、〜がない、という意味の重要動詞です。"
+        },
+        {
+          "q": "What do companies say about the new rules?",
+          "choices": [
+            "They will create more flexible jobs.",
+            "They will reduce prices for customers.",
+            "They may lead to higher prices or less flexibility.",
+            "They were supported by most drivers."
+          ],
+          "answer": 2,
+          "explain_ja": "force them to raise prices or reduce the flexibility が、higher prices or less flexibility に言い換えられています。"
+        }
+      ],
+      "vocab": [
+        [
+          "classify",
+          "分類する"
+        ],
+        [
+          "contractor",
+          "請負業者"
+        ],
+        [
+          "contribution",
+          "拠出金、負担金"
+        ],
+        [
+          "rule",
+          "判決を下す"
+        ],
+        [
+          "entitled to",
+          "〜を受ける権利がある"
+        ]
+      ]
+    },
+    {
+      "id": "w1_lecture_08",
+      "title": "W1-8 Is Bilingualism a Brain Booster?",
+      "title_ja": "バイリンガルは頭が良くなる？",
+      "passage": "In the early two thousands, a number of studies suggested that people who speak two languages perform better on tasks requiring attention and self-control. The explanation seemed logical. Because bilingual people must constantly suppress one language while using the other, their brains might receive a kind of daily training. This idea, often called the bilingual advantage, received wide media attention. In the years that followed, however, larger studies frequently failed to reproduce the original results. Some researchers pointed out that early studies had involved small groups of participants, and that differences in income or education might explain the results better than language. Today, many scientists believe that any advantage in attention is small or uncertain. Nevertheless, they emphasize that learning a second language has clear benefits, such as access to other cultures and better job opportunities, even if it does not make people smarter.",
+      "questions": [
+        {
+          "q": "What happened when larger studies were conducted?",
+          "choices": [
+            "They confirmed the bilingual advantage.",
+            "They showed that bilingualism harms attention.",
+            "They found that bilinguals had lower incomes.",
+            "They often could not produce the same results."
+          ],
+          "answer": 3,
+          "explain_ja": "failed to reproduce the original results が、could not produce the same results に言い換えられています。fail to は、〜できない、という否定の意味です。"
+        },
+        {
+          "q": "What do many scientists say about learning a second language today?",
+          "choices": [
+            "It has little value for adults.",
+            "It should begin before the age of five.",
+            "It greatly improves intelligence.",
+            "It is worthwhile for reasons other than brain training."
+          ],
+          "answer": 3,
+          "explain_ja": "Nevertheless の後で、文化や仕事などの別の利点を挙げています。even if it does not make people smarter とあるので、C は逆です。"
+        }
+      ],
+      "vocab": [
+        [
+          "suppress",
+          "抑える"
+        ],
+        [
+          "reproduce",
+          "再現する"
+        ],
+        [
+          "participant",
+          "参加者"
+        ],
+        [
+          "emphasize",
+          "強調する"
+        ],
+        [
+          "nevertheless",
+          "それでもなお"
+        ]
+      ]
+    },
+    {
+      "id": "w1_lecture_09",
+      "title": "W1-9 Coral Reefs Under Stress",
+      "title_ja": "危機にあるサンゴ礁",
+      "passage": "Coral reefs cover only a tiny fraction of the ocean floor, yet they support around a quarter of all marine species. Corals get their bright colors and much of their food from tiny algae that live inside their tissues. When ocean temperatures rise too high, corals expel these algae and turn white, a process known as bleaching. Bleached corals are not dead, but if high temperatures continue for too long, they may starve. In response, scientists are experimenting with ways to help reefs survive. Some are breeding corals that tolerate heat better, while others grow small coral fragments in underwater nurseries and transplant them onto damaged reefs. These projects have shown promise on a local scale. However, researchers stress that restoration alone cannot keep pace with the damage, and that reducing greenhouse gas emissions is the only long-term solution.",
+      "questions": [
+        {
+          "q": "What happens during coral bleaching?",
+          "choices": [
+            "Corals die immediately.",
+            "Corals grow faster than usual.",
+            "Corals change color to attract fish.",
+            "Corals lose the algae living inside them."
+          ],
+          "answer": 3,
+          "explain_ja": "expel these algae が lose the algae に言い換えられています。Bleached corals are not dead とあるので A は誤りです。"
+        },
+        {
+          "q": "What do researchers stress?",
+          "choices": [
+            "Coral nurseries can fully replace natural reefs.",
+            "Heat-tolerant corals are already common.",
+            "Lowering emissions is necessary in the long run.",
+            "Restoration projects should be stopped."
+          ],
+          "answer": 2,
+          "explain_ja": "reducing greenhouse gas emissions is the only long-term solution が、lowering emissions is necessary in the long run に言い換えられています。keep pace with は、〜に追いつく、という意味です。"
+        }
+      ],
+      "vocab": [
+        [
+          "fraction",
+          "ごく一部"
+        ],
+        [
+          "expel",
+          "追い出す"
+        ],
+        [
+          "tolerate",
+          "耐える"
+        ],
+        [
+          "transplant",
+          "移植する"
+        ],
+        [
+          "keep pace with",
+          "〜に遅れずについていく"
+        ]
+      ]
+    },
+    {
+      "id": "w1_lecture_10",
+      "title": "W1-10 Cycling Cities",
+      "title_ja": "自転車の街づくり",
+      "passage": "Cities such as Copenhagen and Amsterdam are famous for the large number of residents who travel by bicycle. It is often assumed that this is simply part of their culture, but historians point out that in the nineteen sixties, car traffic was growing rapidly in both cities, just as it was elsewhere. What changed the situation was a combination of public protests and political decisions. Concerned about traffic accidents, especially those involving children, citizens demanded safer streets, and city governments responded by building networks of separated bike lanes. Research suggests that the key factor is not the weather or the landscape, but whether people feel safe. When protected lanes are built, cycling tends to increase among groups who rarely cycled before, including older people and women. Other cities, from Paris to Bogota, have recently expanded their own networks with encouraging results.",
+      "questions": [
+        {
+          "q": "What do historians point out about Copenhagen and Amsterdam?",
+          "choices": [
+            "Cycling became popular because of deliberate choices.",
+            "Their residents have always disliked cars.",
+            "They were the first cities to ban cars completely.",
+            "Their flat landscape is the main reason for cycling."
+          ],
+          "answer": 0,
+          "explain_ja": "public protests and political decisions が、deliberate choices、つまり意図的な選択、に言い換えられています。the key factor is not the landscape とあるので D は逆です。"
+        },
+        {
+          "q": "According to research, what happens when protected bike lanes are built?",
+          "choices": [
+            "More types of people start cycling.",
+            "Car accidents increase in the short term.",
+            "Older people stop using public transport.",
+            "The weather becomes less important to cyclists."
+          ],
+          "answer": 0,
+          "explain_ja": "increase among groups who rarely cycled before が、more types of people start cycling に言い換えられています。"
+        }
+      ],
+      "vocab": [
+        [
+          "resident",
+          "住民"
+        ],
+        [
+          "assume",
+          "思い込む、前提とする"
+        ],
+        [
+          "deliberate",
+          "意図的な"
+        ],
+        [
+          "separated",
+          "分離された"
+        ],
+        [
+          "encouraging",
+          "励みになる、有望な"
+        ]
+      ]
+    },
+    {
+      "id": "w1_lecture_11",
+      "title": "W1-11 Antibiotics on the Farm",
+      "title_ja": "家畜と抗生物質",
+      "passage": "Antibiotics have saved countless lives since they were introduced in the twentieth century. However, their overuse has allowed some bacteria to become resistant, making infections harder to treat. While much attention has focused on doctors who prescribe antibiotics unnecessarily, agriculture also plays a major role. In many countries, a large proportion of antibiotics are given to farm animals, not only to treat illness but also to prevent disease in crowded conditions and, in some places, to make animals grow faster. Resistant bacteria that develop on farms can spread to people through food, water, and direct contact. In response, the European Union banned the use of antibiotics to promote animal growth in 2006. Farmers in some countries have shown that improving hygiene and giving animals more space can reduce the need for antibiotics without major losses in production.",
+      "questions": [
+        {
+          "q": "Why are antibiotics given to farm animals in some places?",
+          "choices": [
+            "To make the meat taste better.",
+            "To protect farmers from infections.",
+            "To reduce the cost of animal feed.",
+            "To help the animals grow more quickly."
+          ],
+          "answer": 3,
+          "explain_ja": "to make animals grow faster が、help the animals grow more quickly に言い換えられています。"
+        },
+        {
+          "q": "What have farmers in some countries shown?",
+          "choices": [
+            "Better conditions can lower antibiotic use.",
+            "Antibiotics are necessary for high production.",
+            "Resistant bacteria cannot spread to humans.",
+            "Animal growth depends mainly on medicine."
+          ],
+          "answer": 0,
+          "explain_ja": "improving hygiene and giving animals more space が better conditions に、reduce the need for antibiotics が lower antibiotic use に言い換えられています。"
+        }
+      ],
+      "vocab": [
+        [
+          "resistant",
+          "耐性のある"
+        ],
+        [
+          "prescribe",
+          "処方する"
+        ],
+        [
+          "proportion",
+          "割合"
+        ],
+        [
+          "promote",
+          "促進する"
+        ],
+        [
+          "hygiene",
+          "衛生"
+        ]
+      ]
+    },
+    {
+      "id": "w1_lecture_12",
+      "title": "W1-12 Space Junk",
+      "title_ja": "宇宙ごみ",
+      "passage": "Since the first satellite was launched in 1957, humans have left a growing amount of debris in orbit around the Earth. This space junk includes dead satellites, used rocket parts, and countless small fragments created by collisions and explosions. Because these objects travel at extremely high speeds, even a piece the size of a coin can seriously damage a working satellite. Experts are particularly worried about a scenario known as the Kessler syndrome, in which one collision creates fragments that cause further collisions, setting off a chain reaction. With private companies now launching thousands of satellites for internet services, the risk is rising. Several organizations are developing technologies to remove debris, such as robotic arms and nets. However, there is currently no international agreement that clearly requires countries or companies to clean up the objects they leave behind.",
+      "questions": [
+        {
+          "q": "What is the Kessler syndrome?",
+          "choices": [
+            "A disease that affects astronauts.",
+            "A method of removing space junk.",
+            "A rule for launching private satellites.",
+            "A chain of collisions caused by debris."
+          ],
+          "answer": 3,
+          "explain_ja": "one collision creates fragments that cause further collisions, setting off a chain reaction が、a chain of collisions に言い換えられています。set off は、引き起こす、という意味です。"
+        },
+        {
+          "q": "What problem does the speaker mention at the end?",
+          "choices": [
+            "Robotic arms are too expensive to build.",
+            "Internet satellites cannot be launched safely.",
+            "There are no clear global rules on cleaning up debris.",
+            "Private companies refuse to share technology."
+          ],
+          "answer": 2,
+          "explain_ja": "no international agreement that clearly requires が、no clear global rules に言い換えられています。"
+        }
+      ],
+      "vocab": [
+        [
+          "debris",
+          "破片、がれき"
+        ],
+        [
+          "orbit",
+          "軌道"
+        ],
+        [
+          "fragment",
+          "破片"
+        ],
+        [
+          "collision",
+          "衝突"
+        ],
+        [
+          "set off",
+          "引き起こす"
+        ]
+      ]
+    },
+    {
+      "id": "w1_lecture_13",
+      "title": "W1-13 Fast Fashion",
+      "title_ja": "ファストファッション",
+      "passage": "Over the past few decades, clothing has become cheaper and more plentiful than ever before. So-called fast fashion brands release new designs every few weeks, encouraging consumers to buy more and wear items fewer times before throwing them away. The environmental cost is considerable. Producing textiles requires large amounts of water and energy, and most discarded clothing ends up in landfills or is burned rather than recycled. Much of the clothing donated in wealthy countries is shipped abroad, where some of it is resold but much of it ends up as waste. In response, some governments are considering making clothing companies responsible for the waste their products create. Meanwhile, second-hand clothing platforms have grown rapidly, particularly among young people. Critics argue, however, that unless people actually buy fewer new items, resale alone will do little to reduce the industry's overall impact.",
+      "questions": [
+        {
+          "q": "What happens to much of the clothing donated in wealthy countries?",
+          "choices": [
+            "It is recycled into new fabric.",
+            "It is sold back to fashion brands.",
+            "It is given to local schools.",
+            "It is sent overseas, where much is thrown away."
+          ],
+          "answer": 3,
+          "explain_ja": "shipped abroad が sent overseas に言い換えられています。donation、寄付、が必ずしも役立っていない、という意外な事実がポイントです。"
+        },
+        {
+          "q": "What do critics say about second-hand clothing platforms?",
+          "choices": [
+            "They are only popular among older people.",
+            "They will soon replace fast fashion.",
+            "They make clothing more expensive.",
+            "They are not enough without a reduction in new purchases."
+          ],
+          "answer": 3,
+          "explain_ja": "unless people actually buy fewer new items, resale alone will do little が、新品の購入を減らさなければ不十分だ、と言い換えられています。do little は、ほとんど役に立たない、という意味です。"
+        }
+      ],
+      "vocab": [
+        [
+          "plentiful",
+          "豊富な"
+        ],
+        [
+          "considerable",
+          "かなりの"
+        ],
+        [
+          "textile",
+          "織物、繊維"
+        ],
+        [
+          "discard",
+          "捨てる"
+        ],
+        [
+          "landfill",
+          "埋め立て地"
+        ]
+      ]
+    },
+    {
+      "id": "w1_lecture_14",
+      "title": "W1-14 Daylight Saving Time",
+      "title_ja": "サマータイム論争",
+      "passage": "Daylight saving time, the practice of moving clocks forward by one hour in spring, has been used in many countries for over a century. It was widely adopted during the First World War, partly to save fuel by making better use of evening daylight. Supporters today argue that longer evenings encourage outdoor activity and benefit shops and restaurants. In recent years, however, many health experts have called for the practice to be abolished. Studies have linked the spring clock change to a temporary rise in heart attacks and traffic accidents, likely because people lose an hour of sleep. Many sleep scientists also argue that permanent standard time is healthier than permanent daylight saving time, since morning light helps keep the body clock in line with the sun. Despite years of debate, governments have found it difficult to agree on which time to keep.",
+      "questions": [
+        {
+          "q": "Why was daylight saving time widely adopted during the First World War?",
+          "choices": [
+            "To reduce the use of fuel.",
+            "To give soldiers more time to sleep.",
+            "To increase business at restaurants.",
+            "To improve people's health."
+          ],
+          "answer": 0,
+          "explain_ja": "to save fuel が、reduce the use of fuel に言い換えられています。C は今日の支持者の主張で、戦時中の理由ではありません。時代の対比に注意しましょう。"
+        },
+        {
+          "q": "What do many sleep scientists prefer?",
+          "choices": [
+            "Keeping daylight saving time all year.",
+            "Changing clocks twice a year as before.",
+            "Using standard time throughout the year.",
+            "Letting each city choose its own time."
+          ],
+          "answer": 2,
+          "explain_ja": "permanent standard time is healthier が、using standard time throughout the year に言い換えられています。permanent は、一年中ずっと、という意味です。"
+        }
+      ],
+      "vocab": [
+        [
+          "adopt",
+          "採用する"
+        ],
+        [
+          "abolish",
+          "廃止する"
+        ],
+        [
+          "temporary",
+          "一時的な"
+        ],
+        [
+          "permanent",
+          "恒久的な"
+        ],
+        [
+          "in line with",
+          "〜と一致して"
+        ]
+      ]
+    },
+    {
+      "id": "w1_lecture_15",
+      "title": "W1-15 The Four-Day School Week",
+      "title_ja": "週4日制の学校",
+      "passage": "In parts of the United States, especially in rural areas, a growing number of school districts have switched to a four-day week, with slightly longer school days to make up for the lost time. Districts often adopt the schedule to save money on transportation and heating, and many say it helps them attract teachers, since salaries in rural areas tend to be low. Parents' reactions have been mixed. Some appreciate the extra family time, while working parents may struggle to find childcare on the fifth day. Research on academic results has also produced mixed findings. Some studies have found small declines in test scores, particularly when schools did not add enough instruction time to the remaining days. Experts suggest that the effects depend heavily on how the extra day is used, for example whether schools offer optional tutoring or activities.",
+      "questions": [
+        {
+          "q": "Why do many rural districts adopt a four-day week?",
+          "choices": [
+            "To reduce costs and attract teachers.",
+            "To give students more time for homework.",
+            "Because parents demanded more family time.",
+            "Because test scores had been falling."
+          ],
+          "answer": 0,
+          "explain_ja": "save money が reduce costs に、attract teachers はそのまま使われています。"
+        },
+        {
+          "q": "According to experts, what does the effect of the four-day week depend on?",
+          "choices": [
+            "The number of teachers in a district.",
+            "The size of the school buildings.",
+            "The way the fifth day is used.",
+            "The distance students travel to school."
+          ],
+          "answer": 2,
+          "explain_ja": "depend heavily on how the extra day is used が、the way the fifth day is used に言い換えられています。make up for は、句動詞トラックで出てくる、埋め合わせる、です。"
+        }
+      ],
+      "vocab": [
+        [
+          "rural",
+          "地方の、田舎の"
+        ],
+        [
+          "district",
+          "学区、地区"
+        ],
+        [
+          "make up for",
+          "埋め合わせる"
+        ],
+        [
+          "instruction",
+          "授業、指導"
+        ],
+        [
+          "optional",
+          "任意の"
+        ]
+      ]
+    }
+  ]
+}

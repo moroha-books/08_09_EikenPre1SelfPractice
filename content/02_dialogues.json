@@ -1,0 +1,151 @@
+{
+  "category": "dialogue",
+  "category_title": "会話の本音（Part 1形式）",
+  "description": "言葉の裏にある意図を聞き取る練習。会話 → 質問と選択肢 → 考える間 → 正解と解説 → 重要表現 → 会話をもう一度。",
+  "tracks": [
+    {
+      "id": "dialogue_01",
+      "title": "会話の本音 1〜5",
+      "items": [
+        {
+          "lines": [
+            ["F", "Hey, Tom, did you get a chance to look over my proposal for the new client?"],
+            ["M", "I did. Don't get me wrong, the ideas are solid. But I'm not sure the client will go for a budget that size."],
+            ["F", "So you think I should scale it back?"],
+            ["M", "Well, I'd at least prepare a cheaper alternative before the meeting on Thursday."]
+          ],
+          "question": "What does the man suggest the woman do?",
+          "choices": ["Cancel the meeting on Thursday.", "Submit the proposal without any changes.", "Come up with a less expensive option.", "Ask the client to increase the budget."],
+          "answer": 2,
+          "explain_ja": "Don't get me wrong の後の but が本音です。最後の prepare a cheaper alternative が、選択肢では less expensive option と言い換えられています。",
+          "keys": [["go for", "〜を受け入れる、〜に賛成する"], ["scale back", "規模を縮小する"]]
+        },
+        {
+          "lines": [
+            ["M", "Are you coming to Sarah's farewell party on Friday?"],
+            ["F", "I'd love to, but I'm swamped. The quarterly report is due Monday, and I've barely started."],
+            ["M", "Couldn't you just drop by for an hour?"],
+            ["F", "I wish I could. Can I chip in for the gift, though?"]
+          ],
+          "question": "What will the woman probably do?",
+          "choices": ["Attend the party for an hour.", "Contribute money toward Sarah's gift.", "Ask for an extension on the report.", "Help organize the farewell party."],
+          "answer": 1,
+          "explain_ja": "I wish I could は、できたらいいのに、つまり、行けない、という意味です。chip in はお金を出し合うことなので、正解は contribute money です。",
+          "keys": [["drop by", "ちょっと立ち寄る"], ["barely", "ほとんど〜ない"]]
+        },
+        {
+          "lines": [
+            ["F", "How was the new Italian place you tried last night?"],
+            ["M", "Well, the waiters were friendly, and the view was nice."],
+            ["F", "And the food?"],
+            ["M", "Let's just say I won't be rushing back."]
+          ],
+          "question": "What does the man imply about the restaurant?",
+          "choices": ["The food was disappointing.", "It was too crowded.", "The service was poor.", "It is too far from his home."],
+          "answer": 0,
+          "explain_ja": "料理について聞かれているのに、わざと店員や景色を褒めています。これは、料理は良くなかった、という遠回しな表現です。won't be rushing back は、急いでまた行くことはない、つまり不満だった、という意味です。",
+          "keys": [["Let's just say", "まあ、こう言っておこうか（遠回しな本音の前置き）"], ["rush back", "急いで戻る、すぐまた行く"]]
+        },
+        {
+          "lines": [
+            ["M", "Honey, the car's making that strange noise again."],
+            ["F", "Didn't the mechanic say he fixed it last week?"],
+            ["M", "He did. But I'm beginning to think he just turned up the radio."],
+            ["F", "Very funny. Should we take it back to him or try a different garage?"],
+            ["M", "To be honest, I wouldn't trust him with a bicycle at this point."]
+          ],
+          "question": "What does the man want to do?",
+          "choices": ["Ask the same mechanic to check the car again.", "Take the car to another garage.", "Sell the car and buy a bicycle.", "Ignore the noise for now."],
+          "answer": 1,
+          "explain_ja": "皮肉の聞き取りです。自転車すら任せられない、というのは、あの整備士はまったく信用できない、という意味です。だから別の修理工場に持っていきたい、が正解です。bicycle という単語につられて C を選ばないよう注意してください。",
+          "keys": [["turn up the radio", "ラジオの音量を上げる（皮肉：音をごまかしただけ）"], ["at this point", "今となっては"]]
+        },
+        {
+          "lines": [
+            ["F", "Mr. Lee, about the deadline for the marketing plan. Is there any flexibility?"],
+            ["M", "The board meets on the fifteenth, so it has to be on their desks by the twelfth."],
+            ["F", "I see. The thing is, two members of my team are out sick."],
+            ["M", "Hmm. I could ask Jenna's team to lend you a hand, but the date isn't going to move."]
+          ],
+          "question": "What does the man say?",
+          "choices": ["The deadline can be extended to the fifteenth.", "The woman's team should stop working on the plan.", "He may arrange extra help, but the deadline is fixed.", "The board meeting will be postponed."],
+          "answer": 2,
+          "explain_ja": "lend you a hand は手を貸す、つまり助けを手配するということです。the date isn't going to move は、締め切りは動かない、という意味です。fifteenth という数字につられて A を選ばないようにしましょう。",
+          "keys": [["lend someone a hand", "人に手を貸す"], ["The thing is", "実は、問題は（言いにくいことの前置き）"]]
+        }
+      ]
+    },
+    {
+      "id": "dialogue_02",
+      "title": "会話の本音 6〜10",
+      "items": [
+        {
+          "lines": [
+            ["M", "Did you hear Mark is running for the city council?"],
+            ["F", "Mark? He can't even organize our neighborhood cleanup."],
+            ["M", "He's been taking it pretty seriously, though. He's already raised a lot of money."],
+            ["F", "Well, I'll believe it when I see it."]
+          ],
+          "question": "What is the woman's opinion?",
+          "choices": ["She doubts that Mark will succeed.", "She plans to support Mark's campaign.", "She thinks Mark has raised too much money.", "She wants to organize a cleanup with Mark."],
+          "answer": 0,
+          "explain_ja": "I'll believe it when I see it は、実際に見るまでは信じない、つまり、疑っている、という意味です。直前の、近所の清掃活動すらまとめられない、という発言とも一致します。",
+          "keys": [["run for", "〜に立候補する"], ["I'll believe it when I see it", "見るまでは信じない"]]
+        },
+        {
+          "lines": [
+            ["F", "I've been thinking about switching to the night shift. The pay is twenty percent higher."],
+            ["M", "That's true, but have you considered what it'll do to your sleep?"],
+            ["F", "People adjust, don't they?"],
+            ["M", "Some do. My brother tried it for a year, and it took him months to get back to normal afterward."]
+          ],
+          "question": "What is the man's attitude toward the woman's plan?",
+          "choices": ["He thinks she should ask for a raise instead.", "He is concerned about its effect on her health.", "He wants to work the night shift with her.", "He believes the pay difference is exaggerated."],
+          "answer": 1,
+          "explain_ja": "Some do は、慣れる人もいる、つまり、慣れない人もいる、という含みです。兄の体験談で、健康への影響を心配していることがわかります。",
+          "keys": [["adjust", "慣れる、適応する"], ["get back to normal", "元の状態に戻る"]]
+        },
+        {
+          "lines": [
+            ["M", "The quarterly figures are in. Sales in the northern region are down again."],
+            ["F", "That's the third quarter in a row. Is it the new competitor?"],
+            ["M", "Partly. But our sales team there has also had a lot of turnover."],
+            ["F", "Then before we spend more on advertising, let's look into why people keep leaving."]
+          ],
+          "question": "What does the woman want to do first?",
+          "choices": ["Increase the advertising budget.", "Investigate why staff keep quitting.", "Hire a new regional manager.", "Study the new competitor's products."],
+          "answer": 1,
+          "explain_ja": "before we spend more on advertising とあるので、広告より先にやることが答えです。look into は調査する、turnover は離職、という意味です。",
+          "keys": [["in a row", "連続して"], ["turnover", "離職、人の入れ替わり"]]
+        },
+        {
+          "lines": [
+            ["F", "You look exhausted. Did you get any sleep?"],
+            ["M", "Not much. The neighbors had another party until three."],
+            ["F", "Again? Have you talked to them about it?"],
+            ["M", "I've dropped a few hints, but nothing seems to sink in."],
+            ["F", "Maybe it's time to be a bit more direct."]
+          ],
+          "question": "What does the woman suggest?",
+          "choices": ["Moving to a new apartment.", "Calling the police.", "Telling the neighbors clearly about the problem.", "Joining the neighbors' party."],
+          "answer": 2,
+          "explain_ja": "drop hints は、遠回しにほのめかすこと、sink in は、相手に理解される、という意味です。遠回しでは伝わらないので、もっとはっきり言ったら、という提案です。",
+          "keys": [["drop a hint", "ほのめかす"], ["sink in", "（意味が）理解される、身にしみる"]]
+        },
+        {
+          "lines": [
+            ["M", "I was going to sign up for the advanced Spanish course, but it's full."],
+            ["F", "That's too bad. Is there a waiting list?"],
+            ["M", "There is, but I'm number fifteen on it."],
+            ["F", "Ouch. You know, the community center runs an evening conversation class. It's not as intensive, but it might tide you over until next term."]
+          ],
+          "question": "What does the woman imply?",
+          "choices": ["The man should give up studying Spanish.", "The man will probably get into the advanced course.", "The conversation class could be a temporary option.", "The community center class is more difficult."],
+          "answer": 2,
+          "explain_ja": "tide you over は、一時的にしのぐ、という意味です。次の学期までのつなぎとして会話クラスを勧めています。not as intensive は、それほど集中的ではない、なので D は逆です。",
+          "keys": [["tide someone over", "（困難な時期を）一時的にしのがせる"], ["intensive", "集中的な"]]
+        }
+      ]
+    }
+  ]
+}

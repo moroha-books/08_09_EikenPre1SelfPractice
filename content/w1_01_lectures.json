@@ -1,0 +1,267 @@
+{
+  "category": "lecture",
+  "category_title": "説明文（Part 2形式）",
+  "description": "1週目：説明文15本。",
+  "tracks": [
+    {
+      "id": "w1_lecture_01",
+      "title": "W1-1 Sleep and Memory",
+      "title_ja": "睡眠と記憶",
+      "passage": "For a long time, sleep was viewed as a passive state in which the brain simply rested. Over the past few decades, however, researchers have found that the sleeping brain is remarkably active. During deep sleep, the brain appears to replay experiences from the day, strengthening some connections between neurons while weakening others. This process, known as memory consolidation, helps turn short-term memories into long-term ones. In one well-known type of experiment, people who slept after learning a list of words remembered more of them the next day than people who stayed awake for the same amount of time. Such findings have led some educators to question the habit of staying up all night before exams. Students who sacrifice sleep to study more may actually remember less, since the brain does not get the chance to store what they have learned.",
+      "questions": [
+        {
+          "q": "What have researchers discovered about the sleeping brain?",
+          "choices": [
+            "It stops processing information completely.",
+            "It works less efficiently as people age.",
+            "It only becomes active during dreams.",
+            "It remains highly active and helps store memories."
+          ],
+          "answer": 3,
+          "explain_ja": "was viewed as a passive state は昔の考えで、however の後が新しい発見です。remarkably active と memory consolidation が、highly active and helps store memories に言い換えられています。"
+        },
+        {
+          "q": "What does the speaker imply about students who stay up all night before exams?",
+          "choices": [
+            "They usually get higher scores.",
+            "They should study with a partner.",
+            "Their efforts may not be very effective.",
+            "They need more short-term memory training."
+          ],
+          "answer": 2,
+          "explain_ja": "may actually remember less が、努力があまり効果的でないかもしれない、と言い換えられています。implyの問題は、本文をそのまま言わずに結論だけを述べる選択肢が正解になりやすいです。"
+        }
+      ],
+      "vocab": [
+        [
+          "passive",
+          "受け身の、活動していない"
+        ],
+        [
+          "neuron",
+          "神経細胞"
+        ],
+        [
+          "consolidation",
+          "強化、定着"
+        ],
+        [
+          "sacrifice",
+          "犠牲にする"
+        ],
+        [
+          "remarkably",
+          "驚くほど"
+        ]
+      ]
+    },
+    {
+      "id": "w1_lecture_02",
+      "title": "W1-2 Vertical Farming",
+      "title_ja": "垂直農法",
+      "passage": "Vertical farming is a method of growing crops in stacked layers, usually inside buildings where light, temperature, and water are carefully controlled. Supporters say it offers several advantages over traditional agriculture. Because crops are grown indoors, they are protected from pests and extreme weather, and far less water is needed since it can be recycled. Farms can also be located in cities, close to consumers, which cuts transportation costs. However, the industry has faced serious challenges. Artificial lighting and climate control require enormous amounts of electricity, and several well-funded vertical farming companies have gone out of business in recent years. So far, the method has proved profitable mainly for leafy greens and herbs, which grow quickly and sell at high prices. Experts say that unless energy becomes much cheaper, vertical farms are unlikely to replace conventional fields for staple crops like wheat or rice.",
+      "questions": [
+        {
+          "q": "What is one advantage of vertical farming mentioned by the speaker?",
+          "choices": [
+            "It uses much less water than traditional farming.",
+            "It produces larger vegetables.",
+            "It needs no electricity.",
+            "It is cheaper to start than a regular farm."
+          ],
+          "answer": 0,
+          "explain_ja": "far less water is needed が uses much less water に言い換えられています。電気は大量に必要なので C は逆です。"
+        },
+        {
+          "q": "What do experts say about the future of vertical farming?",
+          "choices": [
+            "It will soon be used to grow rice and wheat.",
+            "It will mostly be located outside cities.",
+            "Its success depends largely on the cost of energy.",
+            "It has become profitable for all types of crops."
+          ],
+          "answer": 2,
+          "explain_ja": "unless energy becomes much cheaper が、エネルギーのコスト次第、と言い換えられています。unless は、〜でない限り、という条件を表す重要な語です。"
+        }
+      ],
+      "vocab": [
+        [
+          "stacked",
+          "積み重ねられた"
+        ],
+        [
+          "pest",
+          "害虫"
+        ],
+        [
+          "go out of business",
+          "倒産する、廃業する"
+        ],
+        [
+          "profitable",
+          "利益の出る"
+        ],
+        [
+          "staple crop",
+          "主要作物"
+        ]
+      ]
+    },
+    {
+      "id": "w1_lecture_03",
+      "title": "W1-3 The Cane Toad Disaster",
+      "title_ja": "オオヒキガエルの悲劇",
+      "passage": "In 1935, about one hundred cane toads were brought from Hawaii to the Australian state of Queensland. Sugar cane farmers hoped the toads would eat beetles that were damaging their crops. The plan failed almost completely. The beetles lived high on the cane plants, where the toads could not reach them, and the toads preferred to eat other insects instead. Worse still, the toads had no natural predators in Australia and reproduced rapidly. Today, their population is estimated in the millions or more, and they have spread across a large part of northern Australia. Because the toads are poisonous, native animals such as snakes and lizards that try to eat them often die. Scientists are now testing creative solutions, including training animals to avoid the toads by feeding them small, harmless pieces of toad meat that make them feel sick.",
+      "questions": [
+        {
+          "q": "Why did the cane toads fail to solve the farmers' problem?",
+          "choices": [
+            "They could not reach the insects they were supposed to eat.",
+            "They were killed by local predators.",
+            "They damaged the sugar cane themselves.",
+            "They were moved to Hawaii too soon."
+          ],
+          "answer": 0,
+          "explain_ja": "the toads could not reach them が、そのまま理由になっています。no natural predators とあるので B は逆です。"
+        },
+        {
+          "q": "What is one method scientists are testing?",
+          "choices": [
+            "Bringing new predators from Hawaii.",
+            "Removing native snakes from affected areas.",
+            "Teaching native animals to stay away from the toads.",
+            "Making the toads less poisonous through breeding."
+          ],
+          "answer": 2,
+          "explain_ja": "training animals to avoid the toads が、teaching native animals to stay away from the toads に言い換えられています。"
+        }
+      ],
+      "vocab": [
+        [
+          "reproduce",
+          "繁殖する"
+        ],
+        [
+          "poisonous",
+          "有毒な"
+        ],
+        [
+          "native",
+          "その土地固有の、在来の"
+        ],
+        [
+          "predator",
+          "捕食者"
+        ],
+        [
+          "harmless",
+          "無害な"
+        ]
+      ]
+    },
+    {
+      "id": "w1_lecture_04",
+      "title": "W1-4 Open-Label Placebos",
+      "title_ja": "ネタばらしのプラセボ",
+      "passage": "A placebo is a treatment with no active ingredients, such as a sugar pill. It has long been known that patients who receive placebos sometimes report feeling better, a phenomenon called the placebo effect. Traditionally, researchers assumed that this effect depended on deception. In other words, the patient had to believe that the pill was real medicine. However, some recent studies have challenged this assumption. In experiments with so-called open-label placebos, patients were told directly that they were taking pills with no medicine in them. Surprisingly, some groups of patients, such as those with certain chronic pain conditions, still reported improvements in their symptoms. Researchers suggest that the ritual of taking a pill regularly, along with a caring relationship with a doctor, may trigger the body's own healing responses. Still, experts warn that placebos cannot cure diseases and should never replace proven treatments.",
+      "questions": [
+        {
+          "q": "What did researchers traditionally believe about the placebo effect?",
+          "choices": [
+            "It only worked for chronic pain.",
+            "It required a close relationship with a doctor.",
+            "It was stronger than real medicine.",
+            "It worked only if patients were misled."
+          ],
+          "answer": 3,
+          "explain_ja": "depended on deception が、worked only if patients were misled に言い換えられています。deception は、だますこと、mislead は、誤解させる、という意味です。"
+        },
+        {
+          "q": "What do experts warn about placebos?",
+          "choices": [
+            "They should not be used instead of effective treatments.",
+            "They often cause serious side effects.",
+            "They are too expensive for most patients.",
+            "They only work when patients are deceived."
+          ],
+          "answer": 0,
+          "explain_ja": "should never replace proven treatments が、should not be used instead of effective treatments に言い換えられています。D は昔の考えで、新しい研究で疑問視されています。"
+        }
+      ],
+      "vocab": [
+        [
+          "ingredient",
+          "成分"
+        ],
+        [
+          "deception",
+          "だますこと"
+        ],
+        [
+          "chronic",
+          "慢性の"
+        ],
+        [
+          "ritual",
+          "儀式、決まった習慣"
+        ],
+        [
+          "trigger",
+          "引き起こす"
+        ]
+      ]
+    },
+    {
+      "id": "w1_lecture_05",
+      "title": "W1-5 Best-Before Dates",
+      "title_ja": "賞味期限と食品ロス",
+      "passage": "Each year, a large share of the food produced around the world is thrown away, and households are responsible for much of this waste. One surprising cause is confusion over date labels. Many consumers do not understand the difference between a use-by date, which relates to safety, and a best-before date, which only indicates when food is at its highest quality. As a result, people often throw away products that are still perfectly safe to eat. To tackle this problem, several supermarket chains in Britain have removed best-before dates from many fresh fruits and vegetables, encouraging shoppers to judge freshness for themselves. Some food companies have also added phrases such as look, smell, and taste to their packaging. Critics, however, note that labels are only part of the problem, and that buying more food than necessary remains the main reason households waste food.",
+      "questions": [
+        {
+          "q": "According to the speaker, why do people throw away safe food?",
+          "choices": [
+            "They misunderstand the meaning of date labels.",
+            "Supermarkets sell food that has already gone bad.",
+            "Use-by dates are often printed incorrectly.",
+            "Fresh food is too expensive to store properly."
+          ],
+          "answer": 0,
+          "explain_ja": "confusion over date labels と do not understand the difference が、misunderstand the meaning of date labels に言い換えられています。"
+        },
+        {
+          "q": "What do critics say?",
+          "choices": [
+            "Supermarkets should bring back best-before dates.",
+            "Consumers cannot judge freshness by smell.",
+            "Use-by dates should also be removed.",
+            "Overbuying is a bigger cause of waste than labels."
+          ],
+          "answer": 3,
+          "explain_ja": "buying more food than necessary remains the main reason が、overbuying is a bigger cause に言い換えられています。however の後の批判の内容をしっかり聞き取りましょう。"
+        }
+      ],
+      "vocab": [
+        [
+          "household",
+          "家庭、世帯"
+        ],
+        [
+          "indicate",
+          "示す"
+        ],
+        [
+          "tackle",
+          "取り組む"
+        ],
+        [
+          "encourage",
+          "促す"
+        ],
+        [
+          "packaging",
+          "包装"
+        ]
+      ]
+    }
+  ]
+}
