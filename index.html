@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f1115">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>英検準1級 通勤リスニング</title>
+<style>
+  :root {
+    --bg: #0f1115; --panel: #1a1d24; --panel2: #232733; --text: #f2f3f5; --muted: #9aa1ae;
+    --accent: #4da3ff; --accent2: #2b6cb0; --ok: #3ecf8e;
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif; }
+  body { padding: env(safe-area-inset-top) 14px calc(env(safe-area-inset-bottom) + 20px); max-width: 760px; margin: 0 auto; }
+  header { display: flex; justify-content: space-between; align-items: baseline; padding: 14px 2px 6px; }
+  header h1 { font-size: 18px; margin: 0; font-weight: 700; }
+  header small { color: var(--muted); font-size: 13px; }
+
+  .now { background: var(--panel); border-radius: 18px; padding: 18px; position: sticky; top: 8px; z-index: 2;
+    box-shadow: 0 8px 24px rgba(0,0,0,.35); }
+  .now .cat { color: var(--accent); font-size: 14px; font-weight: 700; }
+  .now .title { font-size: 22px; font-weight: 700; line-height: 1.3; margin: 4px 0 12px; min-height: 1.3em; }
+  .bar { height: 14px; background: var(--panel2); border-radius: 7px; overflow: hidden; cursor: pointer; }
+  .bar > div { height: 100%; width: 0; background: var(--accent); }
+  .time { display: flex; justify-content: space-between; color: var(--muted); font-size: 14px; margin-top: 6px;
+    font-variant-numeric: tabular-nums; }
+
+  .controls { display: grid; grid-template-columns: 1fr 1fr 1.6fr 1fr 1fr; gap: 10px; margin-top: 14px; }
+  button { font: inherit; color: var(--text); background: var(--panel2); border: 0; border-radius: 16px;
+    min-height: 72px; font-size: 26px; cursor: pointer; touch-action: manipulation; }
+  button:active { transform: scale(.96); background: #2e3443; }
+  button .lbl { display: block; font-size: 11px; color: var(--muted); margin-top: 2px; }
+  #play { background: var(--accent2); font-size: 38px; min-height: 88px; }
+  .sub { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; }
+  .sub button { min-height: 56px; font-size: 17px; font-weight: 700; }
+  .sub button.on { color: var(--ok); }
+
+  .chips { display: flex; gap: 8px; overflow-x: auto; padding: 16px 2px 8px; scrollbar-width: none; }
+  .chip { flex: none; min-height: 44px; padding: 0 16px; font-size: 15px; border-radius: 22px; }
+  .chip.active { background: var(--accent); color: #06121f; font-weight: 700; }
+
+  ol { list-style: none; padding: 0; margin: 0; }
+  li { display: flex; align-items: center; gap: 12px; background: var(--panel); border-radius: 14px;
+    padding: 14px 16px; margin-bottom: 8px; cursor: pointer; min-height: 64px; }
+  li .n { color: var(--muted); width: 1.8em; text-align: right; font-variant-numeric: tabular-nums; }
+  li .t { flex: 1; font-size: 17px; line-height: 1.35; }
+  li .t small { display: block; color: var(--muted); font-size: 12px; margin-top: 2px; }
+  li .d { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+  li.playing { outline: 2px solid var(--accent); }
+  li.playing .t { color: var(--accent); font-weight: 700; }
+  li.done .n::before { content: "✓"; color: var(--ok); margin-right: 2px; }
+  .note { color: var(--muted); font-size: 12px; line-height: 1.6; margin: 18px 4px; }
+  .empty { color: var(--muted); padding: 30px 10px; text-align: center; line-height: 1.8; }
+</style>
+</head>
+<body>
+<header>
+  <h1>英検準1級 通勤リスニング</h1>
+  <small id="summary"></small>
+</header>
+
+<section class="now" aria-live="polite">
+  <div class="cat" id="npCat">トラックを選んでください</div>
+  <div class="title" id="npTitle"></div>
+  <div class="bar" id="bar"><div id="fill"></div></div>
+  <div class="time"><span id="cur">0:00</span><span id="dur">0:00</span></div>
+
+  <div class="controls">
+    <button id="prev" aria-label="前のトラック">⏮</button>
+    <button id="back" aria-label="10秒戻る">↺<span class="lbl">10秒</span></button>
+    <button id="play" aria-label="再生・一時停止">▶</button>
+    <button id="fwd" aria-label="10秒進む">↻<span class="lbl">10秒</span></button>
+    <button id="next" aria-label="次のトラック">⏭</button>
+  </div>
+  <div class="sub">
+    <button id="speed">速度 1.0x</button>
+    <button id="repeat">連続再生</button>
+  </div>
+</section>
+
+<nav class="chips" id="chips"></nav>
+<ol id="list"></ol>
+
+<p class="note">
+  運転中は画面を操作せず、出発前にカテゴリとトラックを選んでください。
+  再生・一時停止・曲送りは、車のハンドルスイッチやBluetoothのボタンでも操作できます（車種により異なります）。
+  聞いた位置は自動で保存され、次回は続きから再生します。
+</p>
+
+<audio id="audio" preload="metadata"></audio>
+<script src="tracks.js"></script>
+<script>
+(() => {
+  const ALL = Array.isArray(window.TRACKS) ? window.TRACKS : [];
+  const $ = id => document.getElementById(id);
+  const audio = $("audio");
+  const SPEEDS = [0.8, 0.9, 1.0, 1.1, 1.25];
+  const REPEATS = [["all", "連続再生"], ["one", "1曲リピート"], ["off", "1曲で停止"]];
+
+  // ---- 保存（使えない環境でも動くように try/catch） ----
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem("eiken." + k); return v === null ? d : JSON.parse(v); } catch { return d; } },
+    set(k, v) { try { localStorage.setItem("eiken." + k, JSON.stringify(v)); } catch {} }
+  };
+
+  let filter = store.get("filter", "all");
+  let speedIdx = store.get("speed", 2);
+  let repeatIdx = store.get("repeat", 0);
+  let done = new Set(store.get("done", []));
+  let current = null; // ALL のインデックス
+
+  const view = () => ALL.map((t, i) => ({ ...t, i })).filter(t => filter === "all" || t.category === filter);
+  const fmt = s => { s = Math.max(0, Math.floor(s || 0)); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`; };
+
+  // ---- カテゴリ ----
+  function renderChips() {
+    const cats = [["all", "すべて"]];
+    ALL.forEach(t => { if (!cats.some(c => c[0] === t.category)) cats.push([t.category, t.category_title]); });
+    $("chips").innerHTML = "";
+    cats.forEach(([key, label]) => {
+      const b = document.createElement("button");
+      b.className = "chip" + (filter === key ? " active" : "");
+      b.textContent = label;
+      b.onclick = () => { filter = key; store.set("filter", key); renderChips(); renderList(); };
+      $("chips").appendChild(b);
+    });
+  }
+
+  // ---- 一覧 ----
+  function renderList() {
+    const list = $("list");
+    list.innerHTML = "";
+    if (!ALL.length) {
+      list.innerHTML = '<div class="empty">トラックがありません。<br>python generate.py を実行して音声と tracks.js を作成してください。</div>';
+      return;
+    }
+    view().forEach((t, n) => {
+      const li = document.createElement("li");
+      li.className = (t.i === current ? "playing " : "") + (done.has(t.file) ? "done" : "");
+      li.innerHTML = `<span class="n">${n + 1}</span><span class="t"></span><span class="d">${fmt(t.duration)}</span>`;
+      li.querySelector(".t").textContent = t.title;
+      if (filter === "all") {
+        const s = document.createElement("small"); s.textContent = t.category_title; li.querySelector(".t").appendChild(s);
+      }
+      li.onclick = () => load(t.i, 0, true);
+      list.appendChild(li);
+    });
+    const totalMin = Math.round(ALL.reduce((a, t) => a + (t.duration || 0), 0) / 60);
+    $("summary").textContent = `${done.size}/${ALL.length} 完了 ・ 全${totalMin}分`;
+  }
+
+  // ---- 再生 ----
+  function load(i, pos = 0, autoplay = false) {
+    if (i == null || !ALL[i]) return;
+    current = i;
+    const t = ALL[i];
+    audio.src = t.file;
+    audio.playbackRate = SPEEDS[speedIdx];
+    $("npCat").textContent = t.category_title;
+    $("npTitle").textContent = t.title;
+    store.set("last", { file: t.file, pos });
+    audio.addEventListener("loadedmetadata", () => {
+      if (pos > 0 && pos < audio.duration - 3) audio.currentTime = pos;
+      audio.playbackRate = SPEEDS[speedIdx];
+    }, { once: true });
+    if (autoplay) audio.play().catch(() => {});
+    setMeta(t);
+    renderList();
+  }
+
+  function step(dir) {
+    const v = view();
+    if (!v.length) return;
+    const k = v.findIndex(t => t.i === current);
+    const nk = k < 0 ? 0 : (k + dir + v.length) % v.length;
+    load(v[nk].i, 0, true);
+  }
+
+  function toggle() {
+    if (current == null) { const v = view(); if (v.length) load(v[0].i, 0, true); return; }
+    audio.paused ? audio.play().catch(() => {}) : audio.pause();
+  }
+  const seek = d => { if (audio.duration) audio.currentTime = Math.min(Math.max(0, audio.currentTime + d), audio.duration - 0.5); };
+
+  $("play").onclick = toggle;
+  $("prev").onclick = () => (audio.currentTime > 5 ? (audio.currentTime = 0) : step(-1));
+  $("next").onclick = () => step(1);
+  $("back").onclick = () => seek(-10);
+  $("fwd").onclick = () => seek(10);
+  $("bar").onclick = e => {
+    if (!audio.duration) return;
+    const r = e.currentTarget.getBoundingClientRect();
+    audio.currentTime = (e.clientX - r.left) / r.width * audio.duration;
+  };
+
+  function paintSpeed() { $("speed").textContent = `速度 ${SPEEDS[speedIdx].toFixed(2).replace(/0$/, "")}x`; }
+  $("speed").onclick = () => { speedIdx = (speedIdx + 1) % SPEEDS.length; store.set("speed", speedIdx); audio.playbackRate = SPEEDS[speedIdx]; paintSpeed(); };
+  function paintRepeat() { $("repeat").textContent = REPEATS[repeatIdx][1]; $("repeat").classList.toggle("on", REPEATS[repeatIdx][0] !== "off"); }
+  $("repeat").onclick = () => { repeatIdx = (repeatIdx + 1) % REPEATS.length; store.set("repeat", repeatIdx); paintRepeat(); };
+
+  audio.addEventListener("play", () => { $("play").textContent = "⏸"; setState("playing"); });
+  audio.addEventListener("pause", () => { $("play").textContent = "▶"; setState("paused"); });
+  let lastSave = 0;
+  audio.addEventListener("timeupdate", () => {
+    const d = audio.duration || 0;
+    $("fill").style.width = d ? (audio.currentTime / d * 100) + "%" : "0";
+    $("cur").textContent = fmt(audio.currentTime);
+    $("dur").textContent = fmt(d);
+    if (Date.now() - lastSave > 3000 && current != null) {
+      lastSave = Date.now();
+      store.set("last", { file: ALL[current].file, pos: audio.currentTime });
+      updatePosition();
+    }
+  });
+  audio.addEventListener("ended", () => {
+    done.add(ALL[current].file); store.set("done", [...done]);
+    const mode = REPEATS[repeatIdx][0];
+    if (mode === "one") { audio.currentTime = 0; audio.play().catch(() => {}); }
+    else if (mode === "all") step(1);
+    else { store.set("last", { file: ALL[current].file, pos: 0 }); renderList(); }
+  });
+
+  // ---- 車・ロック画面・イヤホンのボタン対応（Media Session API） ----
+  const ms = "mediaSession" in navigator ? navigator.mediaSession : null;
+  function setMeta(t) {
+    if (!ms || !window.MediaMetadata) return;
+    ms.metadata = new MediaMetadata({ title: t.title, artist: t.category_title, album: "英検準1級 通勤リスニング" });
+  }
+  function setState(s) { if (ms) ms.playbackState = s; }
+  function updatePosition() {
+    if (!ms || !ms.setPositionState || !audio.duration) return;
+    try { ms.setPositionState({ duration: audio.duration, position: audio.currentTime, playbackRate: audio.playbackRate }); } catch {}
+  }
+  if (ms) {
+    const h = (a, f) => { try { ms.setActionHandler(a, f); } catch {} };
+    h("play", () => audio.play());
+    h("pause", () => audio.pause());
+    h("previoustrack", () => step(-1));
+    h("nexttrack", () => step(1));
+    h("seekbackward", d => seek(-(d && d.seekOffset || 10)));
+    h("seekforward", d => seek(d && d.seekOffset || 10));
+    h("seekto", d => { if (d && d.seekTime != null) audio.currentTime = d.seekTime; });
+  }
+
+  // ---- 起動時：前回の続き ----
+  paintSpeed(); paintRepeat(); renderChips();
+  const last = store.get("last", null);
+  const li = last ? ALL.findIndex(t => t.file === last.file) : -1;
+  if (li >= 0) load(li, last.pos || 0, false); else renderList();
+})();
+</script>
+</body>
+</html>
